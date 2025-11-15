@@ -1,5 +1,4 @@
-
- 🤖 AI Voice Chatbot — Intelligent Conversational Assistant
+# 🤖 AI Voice Chatbot — Intelligent Conversational Assistant
 
 An advanced real-time **AI Voice Assistant** powered by **Meta LLaMA-3 (OpenRouter API)** with a clean **Streamlit UI**, natural **voice input/output**, and smart **conversation memory**.
 

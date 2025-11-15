@@ -8,7 +8,7 @@ import pythoncom
 # Link backend
 backend_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../backend"))
 sys.path.append(backend_path)
-from chat_api import ask_model
+from backend import ask_model
 
 # --- Page Setup ---
 st.set_page_config(page_title="AI Voice Chatbot (Online Cloud Model)", page_icon="🤖", layout="wide")
@@ -114,3 +114,4 @@ for role, text in reversed(st.session_state.history_display[-10:]):
 
 st.markdown("---")
 st.caption("⚡ Powered by Llama-3 • OpenRouter API • Built with ❤️ by Chandan Kheto")
+
